@@ -1,0 +1,40 @@
+
+# Firmware / Build outputs
+*.bin
+*.hex
+*.elf
+build/
+bin/
+out/
+
+# PlatformIO / Arduino
+.pio/
+.pioenvs/
+.arduino/
+.arduino15/
+.arduino_build/
+
+# Python / Simulations
+venv/
+env/
+ENV/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local configs
+.env
+secrets.*
+credentials.json
+
+# Misc
+node_modules/
+dist/
+tmp/
